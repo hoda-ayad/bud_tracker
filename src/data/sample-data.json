@@ -1,0 +1,103 @@
+{
+    "expenses": {
+        "1111": {
+            
+            "id": "1111",
+            "date": "2024-02-02",
+            "description": "Safeway Weekly Grocery Run",
+            "amount": 12.54,
+            "buyerID": 1,
+            "type": "grocery",
+            "items": [{
+                    "name": "broccoli",
+                    "cost": 4.32,
+                    "payerIDs": [1, 3, 4, 5]
+                },
+                {
+                    "name": "mushrooms",
+                    "cost": 2.01,
+                    "payerIDs": [1, 5, 4]
+                }
+            ]
+        },
+        "1112": {
+            "id": "1112",
+            "date": "2024-02-12",
+            "description": "Single Purchase",
+            "amount": 12.54,
+            "buyerID": 3,
+            "type": "single recurring",
+            "items": [{
+                "name": "purchase",
+                "cost": 4.32,
+                "payerIDs": [1, 3, 4, 5]
+            }
+        ]
+        },
+        "1113": {
+            "id": "1113",
+            "date": "2024-02-07",
+            "description": "Safeway Weekly Grocery Run",
+            "amount": 12.54,
+            "buyerID": 1,
+            "type": "grocery",
+            "items": [{
+                "name": "broccoli",
+                "cost": 4.32,
+                "payerIDs": [1, 3, 4, 5]
+            },
+            {
+                "name": "mushrooms",
+                "cost": 2.01,
+                "payerIDs": [1, 5, 4]
+            }
+        ]
+        },
+        "1114": {
+            "id": "1114",
+            "date": "2024-02-05",
+            "description": "Safeway Weekly Grocery Run",
+            "amount": 12.54,
+            "buyerID": 1,
+            "type": "grocery",
+            "items": [{
+                "name": "broccoli",
+                "cost": 4.32,
+                "payerIDs": [1, 3, 4, 5]
+            },
+            {
+                "name": "mushrooms",
+                "cost": 2.01,
+                "payerIDs": [1, 5, 4]
+            }
+        ]
+        }
+    },
+    "users": {
+        "1" : {
+            "fName": "Irene",
+            "lName": "Kim"
+        },
+        "2" : {
+            "fName": "Julia",
+            "lName": "Lee"
+        },
+        "3" : {
+            "fName": "Katie",
+            "lName": "Leija"
+        },
+        "4" : {
+            "fName": "Priyanka",
+            "lName": "Senapati"
+        },
+        "5" : {
+            "fName": "Jasmine",
+            "lName": "Herri"
+        },
+        "6" : {
+            "fName": "Hoda",
+            "lName": "Ayad"
+        }
+    
+    }
+}
